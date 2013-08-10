@@ -8,8 +8,6 @@ from pyquery import PyQuery as pq
 
 offset = 0
 
-
-full = ''
 while True:
     realurl = url + '&offset=' + str(offset)
     f = urllib2.urlopen(realurl)
